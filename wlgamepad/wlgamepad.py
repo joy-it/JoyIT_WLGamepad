@@ -22,10 +22,10 @@ class WLGamepad:
 
         # initilize pins
         GPIO.setmode(GPIO.BCM)
-        GPIO.setup(ATT, GPIO.OUT, initial=1)
-        GPIO.setup(CLK, GPIO.OUT, initial=1)
-        GPIO.setup(CMD, GPIO.OUT, initial=1)
-        GPIO.setup(DATA, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+        GPIO.setup(self.ATT, GPIO.OUT, initial=1)
+        GPIO.setup(self.CLK, GPIO.OUT, initial=1)
+        GPIO.setup(self.CMD, GPIO.OUT, initial=1)
+        GPIO.setup(self.DATA, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
     def _transfer(self,data):
         """

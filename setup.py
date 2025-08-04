@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="JoyIT_WLGamepad",
-    version="1.0.0",
+    version="1.0.1",
     description="Library to use the SBC-WLGamepad with the Raspberry Pi",
     author="Joy-IT",
     author_email="service@joy-it.net",
