@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "JoyIT_WLGamepad"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = ['lgpio']
 authors = [
   { name="Joy-IT", email="service@joy-it.net" },

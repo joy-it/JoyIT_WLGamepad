@@ -5,7 +5,7 @@ Library to use the SBC-WLGamepad with the Raspberry Pi
 You can install this library from PyPI.
 To install it for the current user on your Raspberry Pi, use the following command:
 ```
-pip install JoyIT_WLGamepad
+pip install JoyIT-WLGamepad
 ```
 
 ## Example
